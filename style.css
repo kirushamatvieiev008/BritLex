@@ -296,24 +296,77 @@ ul {
     color: #8F95A5;
     font-size: 13px;
     margin: 0;
-    padding-bottom: 33px;
+    padding-bottom: 35px;
 }
 
 .link_for_smth {
     background-color: #EEEEEE;
-    font-size: 13px;
-    /* height: 37px; */
-    text-align: center;
-    line-height: 37px;
     width: 170px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+    /* vertical-align: sub; */
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 63px;
 }
 
 .price_link {
+    display: block;
+    /* margin-top: 20px; */
+    color: #263238;
     font-size: 18px;
-    
+    /* font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; */
+
 }
 
 .after_price {
-    /* vertical-align: sub; */
+    display: block;
+    padding-left: 15px;
+    margin-top: 2px;
+    color: #546269;
+    font-size: 13px;
+}
+
+.online_course_2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.two_man_lesson {
+    margin-bottom: 12px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.expert_teachers {
+    color: #8F95A5;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: 0;
+}
+
+.zoom {
+    margin-top: 7px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.enjoy_lesson_by_1_dlr {
+    display: block;
+    text-align: center;
+    color: #8F95A5;
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 38px;
 }
