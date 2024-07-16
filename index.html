@@ -48,11 +48,33 @@
             <div class="modal"></div>
           </form>
         </div>
-        <img
-          class="img_hello"
-          src="images/hello_different_languages.png"
-          alt="#"
-        />
+        <picture>
+          <source
+            srcset="images/hello_different_languages.png"
+            media="(max-width: 574px)"
+          />
+          <source
+            srcset="images/hello_different_languages@2x.png"
+            media="min-width: 575px"
+          />
+          <source
+            srcset="images/hello_different_languages@2x.png"
+            media="min-width: 767px"
+          />
+          <source
+            srcset="images/hello_different_languages@3x.png"
+            media="min-width: 992px"
+          />
+          <source
+            srcset="images/hello_different_languages@4x.png"
+            media="min-width: 1595px"
+          />
+          <img
+            class="img_hello"
+            src="images/hello_different_languages.png"
+            alt="#"
+          />
+        </picture>
         <h3 class="learn_languages">
           Learn Any <br />
           Foreign Language
@@ -192,10 +214,10 @@
           <div class="line"></div>
           <div class="logo_end">Brit<span class="lex_logo">lex</span></div>
           <div class="for_lust_verbs">
-          <span class="lust_word_3">Terms and Conditions</span
-          ><span class="lust_word_2">Privacy Policy</span
-          ><span class="the_lust_word">Cookie Policy</span>
-        </div>
+            <span class="lust_word_3">Terms and Conditions</span
+            ><span class="lust_word_2">Privacy Policy</span
+            ><span class="the_lust_word">Cookie Policy</span>
+          </div>
         </footer>
       </div>
     </section>
