@@ -559,6 +559,8 @@ ul {
     
     .img_hello {
         padding-bottom: 16px;
+        max-width: 100%;
+            height: auto;
     }
     
     .learn_languages {
