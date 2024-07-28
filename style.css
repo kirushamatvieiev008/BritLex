@@ -213,7 +213,13 @@
     margin-left: 50%;
     transform: translateX(-50%);
     margin-bottom: 23px;
+    width: 100%;
+    height: auto;
+}
 
+.div_for_picture_everest {
+    margin: 0;
+    padding: 0;
 }
 
 .the_biggest_p {
@@ -223,6 +229,10 @@
     text-align: center;
     padding-bottom: 50px;
     margin: 0;
+}
+
+.br_of_biggest_p_tablet {
+    display: none;
 }
 
 .num_800 {
@@ -295,6 +305,12 @@ ul {
     margin-left: 50%;
     transform: translateX(-50%);
     margin-bottom: 28px;
+}
+
+.div_for_picture_laptop {
+    margin: 0;
+    padding: 0;
+    /* width: 50.6%; */
 }
 
 .online_course {
@@ -742,14 +758,27 @@ ul {
         margin-bottom: 23px;
     
     }
+
+    .div_for_picture_everest {
+        display: block;
+        /* margin: 0; */
+        padding: 0;
+        width: 68.1%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
     
     .the_biggest_p {
         color: #8F95A5;
-        line-height: 19.5px;
-        font-size: 13px;
+        line-height: 21px;
+        font-size: 14px;
         text-align: center;
         padding-bottom: 50px;
         margin: 0;
+    }
+
+    .br_of_biggest_p {
+        display: none;
     }
     
     .num_800 {
@@ -763,7 +792,8 @@ ul {
     
     .pupils {
         color: #8F95A5;
-        line-height: 22.5px;
+        line-height: 21px;
+        font-size: 14px;
         /* padding-top: -30px; */
         /* margin-top: -30px; */
     }
@@ -775,11 +805,12 @@ ul {
     
     .hvastovstvo {
         display: flex;
-        gap: 65px;
-        flex-direction: column;
+        gap: 103px;
+        justify-content: center;
+        flex-direction: row;
         /* display: block; */
         text-align: center;
-        padding-bottom: 110px;
+        padding-bottom: 131px;
     }
     
     .num_18 {
@@ -792,7 +823,8 @@ ul {
     
     .teachers {
         color: #8F95A5;
-        line-height: 22.5px;
+        line-height: 21px;
+        font-size: 14px;
     }
     
     .num_6 {
@@ -805,23 +837,42 @@ ul {
     
     .languages {
         color: #8F95A5;
-        line-height: 22.5px;
+        line-height: 21px;
+        font-size: 14px;
     }
     
     .price {
-        font-size: 24px;
+        font-size: 30px;
         text-align: center;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        margin-bottom: 72px;
-        padding-bottom: 24px;
+        /* margin-bottom: 72px; */
+        padding-bottom: 54px;
+        margin-bottom: 0;
+        line-height: 80px;
+    }
+
+    .br_of_biggest_p_tablet {
+        display: block;
     }
     
     .laptop_en_yan {
         margin-left: 50%;
         transform: translateX(-50%);
         margin-bottom: 28px;
+        width: 100%;
+        height: auto;
+    }
+
+    .div_for_picture_laptop {
+        margin: 0;
+        padding: 0;
+        width: 56.3%;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        /* margin-bottom: 28px; */
     }
     
     .online_course {
@@ -830,15 +881,18 @@ ul {
         font-style: normal;
         text-align: center;
         display: block;
-        font-size: 18px;
+        font-size: 24px;
+        line-height: 28px;
         padding-bottom: 17px;
     }
+    
     
     .starting_learning_english {
         display: block;
         text-align: center;
         color: #8F95A5;
-        font-size: 13px;
+        font-size: 14px;
+        line-height: 21px;
         margin: 0;
         padding-bottom: 35px;
     }
