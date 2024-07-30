@@ -390,6 +390,10 @@ ul {
     transform: translateX(-50%);
 }
 
+.enjoy_tablet {
+    display: none;
+}
+
 .enjoy_lesson_by_1_dlr {
     display: block;
     text-align: center;
@@ -435,6 +439,14 @@ ul {
 .enter::placeholder {
     font-size: 13px;
     color: #8F95A5;
+}
+
+.english_tablet {
+    display: none;
+}
+
+.teachers_talet {
+    display: none;
 }
 
 .subscribe {
@@ -860,7 +872,7 @@ ul {
     .laptop_en_yan {
         margin-left: 50%;
         transform: translateX(-50%);
-        margin-bottom: 28px;
+        margin-bottom: 29px;
         width: 100%;
         height: auto;
     }
@@ -883,10 +895,17 @@ ul {
         display: block;
         font-size: 24px;
         line-height: 28px;
-        padding-bottom: 17px;
+        padding-bottom: 23px;
+    }
+
+    .english_mobile {
+        display: none;
     }
     
-    
+    .english_tablet {
+        display: block;
+    }
+
     .starting_learning_english {
         display: block;
         text-align: center;
@@ -894,12 +913,12 @@ ul {
         font-size: 14px;
         line-height: 21px;
         margin: 0;
-        padding-bottom: 35px;
+        padding-bottom: 31px;
     }
     
     .link_for_smth {
         background-color: #EEEEEE;
-        width: 170px;
+        width: 205px;
         display: flex;
         justify-content: center;
         padding-top: 9px;
@@ -907,13 +926,26 @@ ul {
         text-align: center;
         border-radius: 5px;
         margin: 0 auto;
-        margin-bottom: 70px;
+        margin-bottom: 71px;
+    }
+
+    .link_for_smth_lust {
+        background-color: #EEEEEE;
+        width: 205px;
+        display: flex;
+        justify-content: center;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        text-align: center;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 163px;
     }
     
     .price_link {
         display: block;
         color: #263238;
-        font-size: 18px;
+        font-size: 22px;
     
     }
     
@@ -922,7 +954,7 @@ ul {
         padding-left: 15px;
         margin-top: 2px;
         color: #546269;
-        font-size: 13px;
+        font-size: 16px;
     }
     
     .online_course_2 {
@@ -931,14 +963,30 @@ ul {
         font-style: normal;
         text-align: center;
         display: block;
-        font-size: 18px;
-        padding-bottom: 25px;
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 19px;
+    }
+
+    .teachers_mobile {
+        display: none;
+    }
+
+    .div_for_picture_two_man {
+        display: block;
+        /* margin: 0; */
+        padding: 0;
+        width: 68.1%;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
     
     .two_man_lesson {
-        margin-bottom: 12px;
         margin-left: 50%;
         transform: translateX(-50%);
+        margin-bottom: 21px;
+        width: 100%;
+        height: auto;
     }
     
     .expert_teachers {
@@ -948,9 +996,28 @@ ul {
         padding-bottom: 35px;
         margin: 0;
     }
+
+    .teachers_talet {
+        display: block;
+    }
+
+    .enjoy_tablet {
+        display: block;
+    }
     
     .zoom {
-        margin-top: 7px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .div_for_picture_zoom {
+        display: block;
+        /* margin: 0; */
+        padding: 0;
+        width: 68.1%;
         margin-left: 50%;
         transform: translateX(-50%);
     }
@@ -961,7 +1028,7 @@ ul {
         color: #8F95A5;
         font-size: 13px;
         margin: 0;
-        padding-bottom: 38px;
+        padding-bottom: 31px;
     }
     
     .contact_us {
@@ -970,12 +1037,23 @@ ul {
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: 24px;
-        padding-bottom: 38px;
+        font-size: 30px;
+        padding-bottom: 83px;
     }
     
     .paper_plane {
-        padding-bottom: 38px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .div_for_picture_paper_plane {
+        display: block;
+        /* margin: 0; */
+        padding: 0;
+        width: 68.1%;
         margin-left: 50%;
         transform: translateX(-50%);
     }
