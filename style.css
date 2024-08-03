@@ -1411,10 +1411,20 @@ ul {
         list-style: none;
         display: grid;
         grid-template-columns: 225px 225px 225px;
-        grid-template-rows: 210px 210px 210px;
-        
+        grid-template-rows: 225.33px 225.33px 225.33px;
+        margin: 0 auto;
+        width: 705px;
+        /* text-align: center; */
         /* flex-wrap: wrap; */
         gap: 10px;
+    }
+
+    .img_inside_div_2 {
+        width: 214px;
+        /* margin-top: 31px; */
+        padding-top: 16px;
+        display: block;
+        margin: 0 auto;
     }
 
     .li_of_skills_1 {
@@ -1459,7 +1469,8 @@ ul {
 
     .img_inside_div_1 {
         width: 214px;
-        margin-top: 8px;
+        /* margin-top: 31px; */
+        padding-top: 31px;
         display: block;
         margin: 0 auto;
     }
@@ -1468,7 +1479,7 @@ ul {
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 80px;
         margin-top: -6px;
         padding-left: 13px;
@@ -1480,26 +1491,26 @@ ul {
     }
 
     .text_inside_div_1 {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 19.5px;
         color: #8F95A5;
         display: block;
         margin: 0;
-        padding-left: 16px;
-        margin-top: -5px;
+        padding-left: 17px;
+        margin-top: 0;
     }
 
     .text_inside_div_2 {
-        padding-top: 27px;
+        padding-top: 23px;
         font-size: 13px;
         line-height: 19.5px;
         color: #8F95A5;
         margin: 0;
-        padding-left: 16px;
+        padding-left: 17px;
     }
 
     .learn_more {
-        width: 200px;
+        width: 178px;
         height: 50px;
         border: none;
         border-radius: 5px;
