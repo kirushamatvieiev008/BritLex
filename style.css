@@ -135,6 +135,13 @@
     margin-bottom: 21px;
 }
 
+.section_of_skills_2 {
+    background: #F5F5F5;
+    border-radius: 5px;
+    width: 290px;
+    margin-bottom: 21px;
+}
+
 .img_inside_div_1 {
     width: 213px;
     height: auto;
@@ -172,6 +179,8 @@
 }
 
 .text_inside_div_1 {
+    text-align: left;
+    display: block;
     font-size: 13px;
     line-height: 19.5px;
     color: #8F95A5;
@@ -179,6 +188,8 @@
     margin: 0;
     padding-left: 16px;
 }
+
+
 
 .text_inside_div_2 {
     padding-top: 30px;
@@ -566,6 +577,31 @@ ul {
     display: none;
 }
 
+.text_inside_div_1_br_tablet {
+    display: none;
+}
+
+.text_inside_div_1_br_same {
+    display: block;
+}
+
+.br_text_inside_tablet {
+    display: none;
+}
+
+.text_inside_div_2_br_tablet {
+    display: none;
+}
+
+.img_inside_div_2 {
+    width: 204px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
 /* .div_for_mini_h {
     display: none;
 } */
@@ -576,6 +612,41 @@ ul {
         margin: 0 auto;
         outline: solid rgb(43, 255, 0) 1px;
         position: relative;
+    }
+
+    .text_inside_div_2_br_mobile {
+        display: none;
+    }
+
+    .text_inside_div_2_br_tablet {
+        display: block;
+    }
+
+    .text_inside_div_1_br_tablet {
+        display: block;
+    }
+
+    .text_inside_div_1_br_mobile {
+        display: none;
+    }
+
+    .text_inside_div_1_br_same {
+        display: block;
+    }
+
+    .img_inside_div_2 {
+        width: 182px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .br_text_inside_mobile {
+        display: none;
+    }
+
+    .br_text_inside_tablet {
+        display: block;
     }
 
     .logo {
@@ -719,6 +790,24 @@ ul {
         gap: 30px;
     }
 
+    .idk {
+        width: 100%;
+    }
+
+    .section_of_skills_2 {
+        background: #F5F5F5;
+        border-radius: 5px;
+        width: 240px;
+        height: 534px;
+        /* margin-bottom: 21px; */
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 36px;
+    }
+
     .section_of_skills {
         background: #F5F5F5;
         border-radius: 5px;
@@ -735,9 +824,9 @@ ul {
 
     .img_inside_div_1 {
         width: 185px;
-        margin-top: 8px;
         display: block;
         margin: 0 auto;
+        margin-top: -8px;
     }
 
     .mini_h {
@@ -757,18 +846,18 @@ ul {
 
     .text_inside_div_1 {
         font-size: 12px;
-        line-height: 19.5px;
+        line-height: 18px;
         color: #8F95A5;
         display: block;
         margin: 0;
         padding-left: 16px;
-        margin-top: -5px;
+        margin-top: -18px;
     }
 
     .text_inside_div_2 {
-        padding-top: 27px;
-        font-size: 13px;
-        line-height: 19.5px;
+        padding-top: 26px;
+        font-size: 12px;
+        line-height: 18px;
         color: #8F95A5;
         margin: 0;
         padding-left: 16px;
@@ -1259,6 +1348,18 @@ ul {
         color: #00000079;
     }
 
+    .br_text_inside_mobile {
+        display: none;
+    }
+
+    .idk {
+        width: 100%;
+    }
+
+    .br_text_inside_tablet {
+        display: block;
+    }
+
     .for_hdr_flex {
         display: flex;
         justify-content: space-between;
@@ -1425,6 +1526,7 @@ ul {
         padding-top: 16px;
         display: block;
         margin: 0 auto;
+        margin-bottom: -32px;
     }
 
     .li_of_skills_1 {
@@ -1432,7 +1534,23 @@ ul {
         grid-row-end: 4;
     }
 
+    .section_of_skills_2 {
+        background: #F5F5F5;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        /* margin-bottom: 21px; */
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 27px;
+        height: 460.66px;
+    }
+
     .li_of_skills_2 {
+        padding-bottom: 27px;
         grid-row-start: 1;
         grid-row-end: 3;
         grid-column-start: 2;
@@ -1481,7 +1599,8 @@ ul {
         font-style: normal;
         font-size: 20px;
         line-height: 80px;
-        margin-top: -6px;
+        /* margin-top: -6px; */
+        margin-bottom: -3px;
         padding-left: 13px;
         /* padding-bottom: -3px; */
     }
@@ -1498,6 +1617,10 @@ ul {
         margin: 0;
         padding-left: 17px;
         margin-top: 0;
+    }
+
+    .writing_text {
+        margin-top: -8px;
     }
 
     .text_inside_div_2 {
