@@ -5,6 +5,11 @@
     position: relative;
 }
 
+.br_of_biggest_p_big_tablet {
+    display: none;
+}
+
+
 .logo {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -164,6 +169,21 @@
     margin-top: -9px;
 }
 
+.br_of_biggest_p_tablet1 {
+    display: none;
+}
+
+.br_of_biggest_p_tablet2 {
+    display: none;
+}
+
+.br_of_biggest_p_tablet3 {
+    display: none;
+}
+
+.br_of_biggest_p_tablet4 {
+    display: none;
+}
 .div_for_img_2 {
     margin-top: 8px;
 }
@@ -533,6 +553,10 @@ ul {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.br_card_3_big_tablet {
+    display: none;
 }
 
 .line {
@@ -989,6 +1013,34 @@ ul {
     }
 
     .br_of_biggest_p {
+        display: none;
+    }
+
+    .br_of_biggest_p_tablet1 {
+        display: block;
+    }
+
+    .br_of_biggest_p_tablet2 {
+        display: block;
+    }
+
+    .br_of_biggest_p_tablet3 {
+        display: block;
+    }
+
+    .br_of_biggest_p_1 {
+        display: none;
+    }
+
+    .br_of_biggest_p_small {
+        display: none;
+    }
+
+    .br_of_biggest_p_tablet4 {
+        display: block;
+    }
+
+    .br_of_biggest_p_2 {
         display: none;
     }
 
@@ -1682,6 +1734,88 @@ ul {
         margin: 0 auto; */
     }
 
+    .br_card_3_big_tablet {
+        display: block;
+    }
+
+    .div_flex_for_4_card {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .div_item_for_4_card {
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; */
+    }
+
+    .br_card_3_mobile {
+        display: none;
+    }
+
+    .learn_more_4 {
+        width: 178px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        background-color: #263238;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* align-items: flex-end; */
+        
+        margin: 0;
+    }
+
+    .div_btn_4 {
+        padding-top: 28px;
+        padding-left: 22px;
+    }
+
+    .text_inside_div_4 {
+        font-size: 13px;
+        line-height: 19.5px;
+        color: #8F95A5;
+        display: block;
+        margin: 0;
+        padding-left: 22px;
+        margin-top: -8px;
+    }
+
+    .mini_h_4 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 80px;
+        /* margin-top: -6px; */
+        margin-bottom: -3px;
+        padding-left: 22px;
+        /* padding-bottom: -3px; */
+    }
+
+    .img_inside_div_4 {
+        width: 202px;
+        /* margin-top: 31px; */
+        padding-top: 31px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .flex_everest {
+        margin: 0 auto;
+        width: 705px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+
     .mini_h {
         font-family: "Poppins", sans-serif;
         font-weight: 600;
@@ -1773,47 +1907,82 @@ ul {
     
     .about_us {
         font-size: 30px;
-        text-align: center;
+        text-align: left;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
         padding-top: 50px;
         padding-bottom: 24px;
+        padding-left: 65.14px;
 
     }
     
     .everest {
-        margin-left: 50%;
-        transform: translateX(-50%);
+        /* margin-left: 50%;
+        transform: translateX(-50%); */
         margin-bottom: 23px;
-        
+        width: 295px;
+        height: auto;
     }
     
     .div_for_picture_everest {
         display: block;
         /* margin: 0; */
         padding: 0;
-        width: 68.1%;
-        margin-left: 50%;
-        transform: translateX(-50%);
+        margin-top: -43px;
+        /* width: 68.1%; */
+        /* margin-left: 50%; */
+        /* transform: translateX(-50%); */
     }
     
     .the_biggest_p {
         color: #8F95A5;
         line-height: 21px;
         font-size: 14px;
-        text-align: center;
+        text-align: left;
         padding-bottom: 50px;
         margin: 0;
     }
     
     .br_of_biggest_p {
+        display: block;
+    }
+
+    .br_of_biggest_p_tablet1 {
+        display: none;
+    }
+
+    .br_of_biggest_p_tablet3 {
+        display: none;
+    }
+
+    .br_of_biggest_p_tablet2 {
+        display: none;
+    }
+
+    .br_of_biggest_p_big_tablet {
+        display: block;
+    }
+
+    .br_of_biggest_p_1 {
+        display: none;
+    }
+
+    .br_of_biggest_p_small {
+        display: none;
+    }
+
+    .br_of_biggest_p_tablet4 {
+        display: none;
+    }
+
+    .br_of_biggest_p_2 {
         display: none;
     }
     
     .num_800 {
         color: #2A3246;
-        font-size: 24px;
+        font-size: 22px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -1822,8 +1991,8 @@ ul {
     
     .pupils {
         color: #8F95A5;
-        line-height: 21px;
-        font-size: 14px;
+        line-height: 19.5px;
+        font-size: 13px;
         /* padding-top: -30px; */
         /* margin-top: -30px; */
     }
@@ -1835,7 +2004,7 @@ ul {
 
     .hvastovstvo {
         display: flex;
-        gap: 103px;
+        gap: 53px;
         justify-content: center;
         flex-direction: row;
         /* display: block; */
@@ -1845,7 +2014,7 @@ ul {
 
     .num_18 {
         color: #2A3246;
-        font-size: 24px;
+        font-size: 22px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -1853,13 +2022,13 @@ ul {
 
     .teachers {
         color: #8F95A5;
-        line-height: 21px;
-        font-size: 14px;
+        line-height: 19.5px;
+        font-size: 13px;
     }
 
     .num_6 {
         color: #2A3246;
-        font-size: 24px;
+        font-size: 22px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -1867,8 +2036,8 @@ ul {
 
     .languages {
         color: #8F95A5;
-        line-height: 21px;
-        font-size: 14px;
+        line-height: 19.5px;
+        font-size: 13px;
     }
 
     .price {
