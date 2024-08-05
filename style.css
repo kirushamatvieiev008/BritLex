@@ -140,6 +140,15 @@
     margin-bottom: 21px;
 }
 
+.section_of_skills_4 {
+    background: #F5F5F5;
+    border-radius: 5px;
+    width: 290px;
+    margin-bottom: 21px;
+    height: 534px;
+    margin-top: -35px;
+}
+
 .section_of_skills_2 {
     background: #F5F5F5;
     border-radius: 5px;
@@ -158,6 +167,15 @@
 
 .img_inside_div_3 {
     width: 216px;
+    height: auto;
+    margin-top: 8px;
+    display: block;
+    margin: 0 auto;
+    padding-top: -100px;
+}
+
+.img_inside_div_4 {
+    width: 232px;
     height: auto;
     margin-top: 8px;
     display: block;
@@ -207,6 +225,17 @@
     padding-bottom: -3px;
 }
 
+.mini_h_4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 80px;
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-bottom: -3px;
+}
+
 .mini_h_2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -229,7 +258,16 @@
     padding-left: 16px;
 }
 
-
+.text_inside_div_4 {
+    text-align: left;
+    display: block;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: #8F95A5;
+    display: block;
+    margin: 0;
+    padding-left: 16px;
+}
 
 .text_inside_div_2 {
     padding-top: 30px;
@@ -253,6 +291,38 @@
     color: #fff;
     margin-bottom: 45px;
     margin-top: 35px;
+}
+
+.learn_more_4 {
+    /* margin-left: 16px;
+    width: 178px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #263238;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 45px;
+    margin-top: 350px; */
+    display: none;
+}
+
+
+.learn_more_4_fake {
+    margin-left: 16px;
+    width: 178px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #263238;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 45px;
+    margin-top: 113px;
 }
 
 .learn_more_2 {
@@ -404,6 +474,10 @@ ul {
     font-size: 13px;
     margin: 0;
     padding-bottom: 35px;
+}
+
+.br_personal_tuition {
+    display: none;
 }
 
 .link_for_smth {
@@ -659,6 +733,39 @@ ul {
     margin: 0 auto;
 }
 
+.br_online_course_big_tablet {
+    display: none;
+}
+
+.br_learning_big_tablet {
+    display: none;
+}
+
+.english_mobile_2 {
+    display: block;
+}
+
+.br_online_course_2_big_tablet {
+    display: none;
+}
+
+.teachers_big_tablet {
+    display: none;
+}
+
+.br_enjoy_big_tablet {
+    display: none;
+}
+
+.br_discover_big_tablet {
+    display: none;
+}
+
+
+
+
+
+
 
 
 /* .div_for_mini_h {
@@ -881,6 +988,20 @@ ul {
         padding-bottom: 36px;
     }
 
+    .section_of_skills_4 {
+        background: #F5F5F5;
+        border-radius: 5px;
+        width: 240px;
+        height: 534px;
+        /* margin-bottom: 21px; */
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        /* padding-bottom: 36px; */
+    }
+
     .img_inside_div_1 {
         width: 185px;
         display: block;
@@ -895,7 +1016,25 @@ ul {
         margin-top: -8px;
     }
 
+    .img_inside_div_4 {
+        width: 206px;
+        display: block;
+        margin: 0 auto;
+        margin-top: -8px;
+    }
+
     .mini_h {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 80px;
+        margin-top: -6px;
+        padding-left: 13px;
+        /* padding-bottom: -3px; */
+    }
+
+    .mini_h_4 {
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
@@ -931,6 +1070,16 @@ ul {
         margin-top: -18px;
     }
 
+    .text_inside_div_4 {
+        font-size: 12px;
+        line-height: 18px;
+        color: #8F95A5;
+        display: block;
+        margin: 0;
+        padding-left: 16px;
+        margin-top: -18px;
+    }
+
     .text_inside_div_2 {
         padding-top: 26px;
         font-size: 12px;
@@ -941,6 +1090,24 @@ ul {
     }
 
     .learn_more {
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        background-color: #263238;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* align-items: flex-end; */
+        margin: 0;
+    }
+
+    .learn_more_4_fake {
         width: 200px;
         height: 50px;
         border: none;
@@ -1124,7 +1291,7 @@ ul {
         margin-left: 50%;
         transform: translateX(-50%);
         margin-bottom: 29px;
-        width: 100%;
+        width: 291px;
         height: auto;
     }
 
@@ -1235,8 +1402,8 @@ ul {
     .two_man_lesson {
         margin-left: 50%;
         transform: translateX(-50%);
-        margin-bottom: 21px;
-        width: 100%;
+        margin-bottom: 29px;
+        width: 353px;
         height: auto;
     }
 
@@ -1260,7 +1427,7 @@ ul {
         margin-left: 50%;
         transform: translateX(-50%);
         margin-bottom: 15px;
-        width: 100%;
+        width: 253px;
         height: auto;
     }
 
@@ -1437,6 +1604,29 @@ ul {
     .bulb {
         display: none;
     }
+
+    .br_online_course_big_tablet {
+        display: none;
+    }
+
+    .br_learning_big_tablet {
+        display: none;
+    }
+
+    .br_online_course_2_big_tablet {
+        display: none;
+    }
+
+    .teachers_big_tablet {
+        display: none;
+    }
+
+    .img_inside_div_4 {
+        width: 206px;
+        display: block;
+        margin: 0 auto;
+        margin-top: -8px;
+    }
 }
 
 
@@ -1549,6 +1739,7 @@ ul {
     .learn_languages {
         font-size: 36px;
         margin: 0;
+        padding-left: 32px;
         text-align: left;
         padding-bottom: 25px;
         line-height: 45px;
@@ -1577,6 +1768,7 @@ ul {
         text-align: center;
         font-size: 16px;
         margin: 0;
+        padding-left: 32px;
         padding-bottom: 35px;
         text-align: left;
         line-height: 24px;
@@ -1598,7 +1790,7 @@ ul {
         color: #fff;
         text-align: center;
         /* margin: 0 auto; */
-        margin-left: 0;
+        margin-left: 32px;
         padding: 0;
         cursor: pointer;
         font-family: "Poppins", sans-serif;
@@ -1768,8 +1960,10 @@ ul {
         align-items: center;
         justify-content: center;
         /* align-items: flex-end; */
-        
+
         margin: 0;
+        margin-top: 16px;
+        margin-left: 17px;
     }
 
     .div_btn_4 {
@@ -1785,6 +1979,10 @@ ul {
         margin: 0;
         padding-left: 22px;
         margin-top: -8px;
+    }
+
+    .learn_more_4_fake {
+        display: none;
     }
 
     .mini_h_4 {
@@ -2009,7 +2207,8 @@ ul {
         flex-direction: row;
         /* display: block; */
         text-align: center;
-        padding-bottom: 131px;
+        padding-bottom: 84px;
+        margin: 0;
     }
 
     .num_18 {
@@ -2057,35 +2256,49 @@ ul {
     }
 
     .laptop_en_yan {
-        margin-left: 50%;
+        /* margin-left: 50%;
         transform: translateX(-50%);
-        margin-bottom: 29px;
-        width: 100%;
+        margin-bottom: 29px; */
+        margin-bottom: 23px;
+        width: 197px;
         height: auto;
     }
 
     .div_for_picture_laptop {
-        margin: 0;
+        /* margin: 0;
         padding: 0;
         width: 56.3%;
         text-align: center;
         margin-left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%); */
         /* margin-bottom: 28px; */
+    }
+
+    .br_online_course_big_tablet {
+        display: block;
     }
 
     .online_course {
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        text-align: center;
+        text-align: left;
         display: block;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 28px;
-        padding-bottom: 23px;
+        padding-bottom: 15px;
+        padding-bottom: 9px;
+    }
+
+    .br_learning_big_tablet {
+        display: block;
     }
 
     .english_mobile {
+        display: none;
+    }
+
+    .english_mobile_2 {
         display: none;
     }
 
@@ -2093,26 +2306,60 @@ ul {
         display: block;
     }
 
+    .english_mobile_2 {
+        display: block;
+    }
+
     .starting_learning_english {
         display: block;
-        text-align: center;
+        text-align: left;
         color: #8F95A5;
         font-size: 14px;
         line-height: 21px;
         margin: 0;
-        padding-bottom: 31px;
+        padding-bottom: 23px;
     }
+
+    .div_for_flex_laptop_lesson_zoom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .br_online_course_2_big_tablet {
+        display: block;
+    }
+
+    .for_item_laptop {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .br_personal_tuition {
+        display: block;
+    }
+
+    .br_enjoy_big_tablet {
+        display: block;
+    }
+
+    .enjoy_tablet {
+        display: none;
+    }
+
+    
 
     .link_for_smth {
         background-color: #EEEEEE;
         width: 205px;
+        height: 45px;
         display: flex;
         justify-content: center;
         padding-top: 9px;
         padding-bottom: 9px;
         text-align: center;
         border-radius: 5px;
-        margin: 0 auto;
+        margin-left: 0;
         margin-bottom: 71px;
     }
 
@@ -2132,9 +2379,10 @@ ul {
     .price_link {
         display: block;
         color: #263238;
-        font-size: 22px;
+        font-size: 24px;
 
     }
+    
 
     .after_price {
         display: block;
@@ -2148,11 +2396,20 @@ ul {
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        text-align: center;
+        text-align: left;
         display: block;
+        /* margin: 0 auto; */
+        width: 170px;
         font-size: 24px;
         line-height: 28px;
         padding-bottom: 19px;
+    }
+
+    
+
+    .div_for_align_onlin_course_2 {
+        margin: 0 auto;
+        text-align: center;
     }
 
     .teachers_mobile {
@@ -2161,26 +2418,44 @@ ul {
 
     .div_for_picture_two_man {
         display: block;
-        /* margin: 0; */
+        margin: 0;
         padding: 0;
-        width: 68.1%;
-        margin-left: 50%;
+        width: 219px;
+        margin-left: 90%;
         transform: translateX(-50%);
     }
 
     .two_man_lesson {
-        margin-left: 50%;
-        transform: translateX(-50%);
+        /* margin-left: 50%;
+        transform: translateX(-50%); */
+        /* display: block;
         margin-bottom: 21px;
-        width: 100%;
+        margin-left: 0;
+        width: 219px;
+        height: auto; */
+        width: 219px;
         height: auto;
+        margin: 0;
+        margin-left: 15px;
+        padding-bottom: 23px;
+    }
+
+    .teachers_big_tablet {
+        display: block;
+    }
+
+    .for_item_lesson {
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
     }
 
     .expert_teachers {
         color: #8F95A5;
-        font-size: 13px;
-        text-align: center;
-        padding-bottom: 35px;
+        font-size: 14px;
+        text-align: left;
+        padding-bottom: 45px;
         margin: 0;
     }
 
@@ -2193,29 +2468,34 @@ ul {
     }
 
     .zoom {
-        margin-left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: 15px;
-        width: 100%;
+        width: 219px;
         height: auto;
+        margin: 0;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        /* padding-bottom: 23px; */
+    }
+
+    .teachers_talet {
+        display: none;
     }
 
     .div_for_picture_zoom {
         display: block;
-        /* margin: 0; */
+        margin: 0;
         padding: 0;
-        width: 68.1%;
-        margin-left: 50%;
+        width: 210px;
+        margin-left: 90%;
         transform: translateX(-50%);
     }
 
     .enjoy_lesson_by_1_dlr {
         display: block;
-        text-align: center;
+        text-align: left;
         color: #8F95A5;
         font-size: 13px;
         margin: 0;
-        padding-bottom: 31px;
+        padding-bottom: 38px;
     }
 
     .contact_us {
@@ -2225,33 +2505,33 @@ ul {
         font-weight: 600;
         font-style: normal;
         font-size: 30px;
-        padding-bottom: 83px;
+        margin-top: -96px;
+        padding-bottom: 0;
     }
 
     .paper_plane {
-        margin-left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: 15px;
-        width: 100%;
+        margin-top: -50px;
+        width: 233px;
         height: auto;
+        padding-bottom: 0;
     }
 
     .div_for_picture_paper_plane {
-        display: block;
+        /* display: block; */
         /* margin: 0; */
-        padding: 0;
+        /* padding: 0;
         width: 68.1%;
         margin-left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%); */
     }
 
     .discover_ur_english_lvl {
-        font-size: 16px;
-        text-align: center;
+        font-size: 14px;
+        text-align: left;
         color: #8F95A5;
         margin: 0;
         line-height: 24px;
-        padding-bottom: 60px;
+        padding-bottom: 26px;
     }
 
     form {
@@ -2268,10 +2548,10 @@ ul {
 
     .enter {
         margin-top: 1px;
-        width: 510px;
+        width: 283px;
         outline: 1px solid #8F95A5;
         border-radius: 5px;
-        height: 58px;
+        height: 50px;
         border: none;
         padding-left: 41px;
         z-index: 1;
@@ -2283,16 +2563,16 @@ ul {
     }
 
     .subscribe {
-        font-size: 16px;
+        font-size: 13px;
         background-color: #263238;
         color: #fff;
-        width: 290px;
-        height: 60px;
+        width: 145px;
+        height: 50px;
         margin-top: 0px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        margin-left: -30px;
+        margin-left: 6px;
         z-index: 2;
     }
 
@@ -2300,8 +2580,8 @@ ul {
         background-color: #C4C4C4;
         height: 1px;
         width: 100%;
-        margin-top: 144px;
-        margin-bottom: 24px;
+        margin-top: 120px;
+        margin-bottom: 18px;
     }
 
     .logo_end {
@@ -2316,19 +2596,19 @@ ul {
     .lust_word_3 {
         position: relative;
         color: #8F95A5;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 18px;
     }
 
     .lust_word_2 {
         color: #8F95A5;
-        font-size: 12px;
+        font-size: 13px;
         position: relative;
         line-height: 18px;
     }
 
     .the_lust_word {
-        font-size: 12px;
+        font-size: 13px;
         color: #8F95A5;
         line-height: 18px;
     }
@@ -2337,8 +2617,8 @@ ul {
         content: '';
         display: block;
         position: absolute;
-        top: 10.5px;
-        left: 125px;
+        top: 8.5px;
+        left: 130px;
         width: 3px;
         background-color: #8F95A5;
         height: 3px;
@@ -2349,8 +2629,8 @@ ul {
         content: '';
         display: block;
         position: absolute;
-        top: 10.5px;
-        left: 80px;
+        top: 8.5px;
+        left: 82px;
         width: 3px;
         background-color: #8F95A5;
         height: 3px;
@@ -2361,10 +2641,36 @@ ul {
         width: 317px;
         display: flex;
         justify-content: space-around;
-        padding-bottom: 39px;
+        padding-bottom: 0;
+    }
+
+    .flex_footer {
+        display: flex;
+        max-width: 800px;
+        /* flex-direction: row-reverse; */
+        justify-content: space-between;
+        /* gap: 105px; */
+        
+    }
+
+    .br_discover_big_tablet {
+        display: block;
+    }
+
+    .lvl_mobile {
+        display: none;
+    }
+
+    .lvl_tablet {
+        display: none;
+    }
+
+    .item_footer {
+        /* margin-right: 100px; */
     }
 
     .footer_flex {
+        /* width: 93.64%; */
         display: flex;
         justify-content: space-between;
         align-items: baseline;
