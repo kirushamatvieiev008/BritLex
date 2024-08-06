@@ -37,7 +37,17 @@
       <div class="container">
         <div class="for_hdr_flex">
           <div class="logo">Brit<span class="lex_logo">lex</span></div>
-          <form action="#">
+
+          <ul class="header_info">
+            <li><a class="header_links" href="#">Home</a></li>
+            <li><a class="header_links" href="#">Skills</a></li>
+            <li><a class="header_links" href="#">About Us</a></li>
+            <li><a class="header_links" href="#">Pricing</a></li>
+            <li><a class="header_links" href="#">Contacts</a></li>
+          </ul>
+
+          <button class="lets_talk">Let’s Talk</button>
+          <form class="burger_form" action="#">
             <input id="burger" class="checkbox" type="checkbox" />
             <label class="label_burger" for="burger">
               <div class="burger">
@@ -148,24 +158,31 @@
                   interactive <br class="text_inside_div_1_br_mobile" />
                   lessons online. <br class="text_inside_div_1_br_tablet" />
                   20% extra free for <br class="text_inside_div_1_br_mobile" />
-                  a limited <br class="text_inside_div_1_br_tablet" />
+                  a limited
+                  <br class="text_inside_div_1_br_tablet_and_desktop" />
                   time only
                 </p>
                 <p class="text_inside_div_2">
                   Learn English online and
                   <br class="text_inside_div_2_br_tablet" />
-                  improve your <br class="text_inside_div_2_br_mobile" />
+                  improve <br class="br_text_inside_div_2_desktop" />
+                  your <br class="text_inside_div_2_br_mobile_and_desktop" />
                   skills through our <br class="text_inside_div_2_br_tablet" />
-                  high-quality courses
+                  high-quality <br class="br_text_inside_div_2_desktop" />
+                  courses
                   <br class="text_inside_div_2_br_mobile" />
                   and <br class="text_inside_div_2_br_tablet" />
-                  resources – all designed for
+                  resources – all <br class="br_text_inside_div_2_desktop" />
+                  designed for
                   <br class="text_inside_div_2_br_tablet" />
                   adult <br class="text_inside_div_2_br_mobile" />
-                  language learners.
+                  language <br class="br_text_inside_div_2_desktop" />
+                  learners.
                 </p>
               </div>
-              <button class="learn_more">Learn more</button>
+              <div class="for_btn_1">
+                <button class="learn_more">Learn more</button>
+              </div>
             </div>
           </li>
 
@@ -206,12 +223,12 @@
                 </div>
                 <p class="text_inside_div_1 writing_text">
                   One of the most important <br class="br_text_inside_tablet" />
-                  and extensive <br class="br_text_inside_mobile" />
+                  and <br class="br_inside_text_card_2"> extensive <br class="br_text_inside_mobile" />
                   areas of <br class="br_text_inside_tablet" />
-                  natural science, the science
+                  natural <br class="br_inside_text_card_2"> science, the science
                   <br class="br_text_inside_tablet" />
                   that <br class="br_text_inside_mobile" />
-                  studies substances, <br class="br_text_inside_tablet" />
+                  studies <br class="br_inside_text_card_2"> substances, <br class="br_text_inside_tablet" />
                   also their composition
                 </p>
               </div>
@@ -222,7 +239,7 @@
 
           <li class="li_of_skills li_of_skills_3">
             <div class="section_of_skills">
-              <div>
+              <div class="idk">
                 <div class="div_for_img_3">
                   <picture>
                     <source
@@ -259,15 +276,16 @@
                   perception and response <br class="br_card_3_big_tablet" />
                   actions <br class="br_card_3_mobile" />
                   of the user resulting <br class="br_card_3_big_tablet" />
-                  from the use and <br class="br_card_3_mobile" />
+                  from the use <br class="text_inside_card_3_desktop"> and <br class="br_card_3_mobile_and_tablet" />
                   or up <br class="br_card_3_big_tablet" />
-                  coming use of the product,
+                  coming use of the <br class="br_card_3_mobile_and_tablet_">  product, <br class="text_inside_card_3_tablet">
                   <br class="br_card_3_mobile_and_big_tablet" />
                   system or service
                 </p>
               </div>
-
+              <div class="for_btn_3">
               <button class="learn_more">Learn more</button>
+            </div>
             </div>
           </li>
 
@@ -275,57 +293,55 @@
             <div class="section_of_skills">
               <div class="div_flex_for_4_card">
                 <!-- <div class="for_flex_btn_4"> -->
-                  <div class="div_for_img_4">
-                    <picture>
-                      <source
-                        srcset="images/microphone@2x.png"
-                        media="(max-width: 574px)"
-                      />
-                      <source
-                        srcset="images/microphone.png"
-                        media="(min-width: 575px) and (max-width: 766px)"
-                      />
-                      <source
-                        srcset="images/microphone@2x.png"
-                        media="(min-width: 767px) and (max-width: 991px)"
-                      />
-                      <source
-                        srcset="images/microphone@3x.png"
-                        media="(min-width: 992px) and (max-width: 1599px)"
-                      />
-                      <source
-                        srcset="images/microphone@2x.png"
-                        media="(min-width: 1600px)"
-                      />
-                      <img
-                        class="img_inside_div_4"
-                        src="images/microphone.png"
-                        alt="#"
-                      />
-                    </picture>
+                <div class="div_for_img_4">
+                  <picture>
+                    <source
+                      srcset="images/microphone@2x.png"
+                      media="(max-width: 574px)"
+                    />
+                    <source
+                      srcset="images/microphone.png"
+                      media="(min-width: 575px) and (max-width: 766px)"
+                    />
+                    <source
+                      srcset="images/microphone@2x.png"
+                      media="(min-width: 767px) and (max-width: 991px)"
+                    />
+                    <source
+                      srcset="images/microphone@3x.png"
+                      media="(min-width: 992px) and (max-width: 1599px)"
+                    />
+                    <source
+                      srcset="images/microphone@2x.png"
+                      media="(min-width: 1600px)"
+                    />
+                    <img
+                      class="img_inside_div_4"
+                      src="images/microphone.png"
+                      alt="#"
+                    />
+                  </picture>
+                </div>
+                <div class="div_item_for_4_card">
+                  <div class="div_for_mini_h">
+                    <span class="mini_h_4">Listening</span>
                   </div>
-                  <div class="div_item_for_4_card">
-                    <div class="div_for_mini_h">
-                      <span class="mini_h_4">Listening</span>
-                    </div>
-                    <p class="text_inside_div_4">
-                      Here you can find activities to practise <br />
-                      your listening skills. Listening will help <br />
-                      you to improve your understanding
-                    </p>
+                  <p class="text_inside_div_4">
+                    Here you can find activities to practise <br />
+                    your listening skills. Listening will help <br class="br_in_card_4_mobile"/>
+                    you <br class="br_in_card_4_desktop"> to improve your understanding
+                  </p>
                   <!-- </div> -->
 
                   <div class="div_btn_">
                     <button class="learn_more_4">Learn more</button>
                   </div>
-
                 </div>
               </div>
 
               <!-- <div class="div_btn"> -->
-                <button class="learn_more_4_fake">Learn more</button>
+              <button class="learn_more_4_fake">Learn more</button>
               <!-- </div> -->
-
             </div>
           </li>
         </ul>
@@ -362,25 +378,25 @@
               The model offers a framework for discussing<br
                 class="br_of_biggest_p"
               />
-              problems related to the<br class="br_of_biggest_p_tablet1" />
+              problems related <br class="br_the_biggest_p_desktop"> to the<br class="br_of_biggest_p_tablet1" />
               user's experience, as <br class="br_of_biggest_p" />
-              well as possible ways and means of solving<br
+              well as possible ways and means <br class="br_the_biggest_p_desktop"> of solving<br
                 class="br_of_biggest_p"
               />
               them.<br class="br_of_biggest_p_tablet2" />
               Application development begins at <br class="br_of_biggest_p_1" />
               the <br class="br_of_biggest_p_big_tablet" />
-              top level (strategy), where the<br
+              top level <br class="br_the_biggest_p_desktop"> (strategy), where the<br
                 class="br_of_biggest_p_tablet3"
               />
               future <br class="br_of_biggest_p_small" />
               software <br class="br_of_biggest_p_big_tablet" />
-              product is described quite <br class="br_of_biggest_p_small" />
+              product is described quite <br class="br_of_biggest_p_small_2" />
               abstractly from <br class="br_of_biggest_p_big_tablet" />
               the point of<br class="br_of_biggest_p_tablet4" />
               view of the <br class="br_of_biggest_p_2" />
               expectations of both <br class="br_of_biggest_p_big_tablet" />
-              users and the customer.
+              users <br class="br_the_biggest_p_desktop"> and the customer.
             </p>
             <ul class="hvastovstvo">
               <li>
@@ -439,10 +455,10 @@
             <p class="starting_learning_english">
               Start learning English online
               <br class="br_learning_big_tablet" />
-              in live classes
+              in live <br class="br_learning_desktop"> classes
               <br class="english_mobile" />
               with qualified <br class="english_tablet" />
-              EC teachers and students <br class="english_mobile_2" />
+              EC teachers <br class="br_learning_desktop"> and students <br class="english_mobile_2" />
               from all over the world.
             </p>
             <div class="link_for_smth">
@@ -488,7 +504,7 @@
               expert
               <br class="teachers_mobile" />
               teachers. <br class="teachers_talet" />
-              Free 7-day <br class="teachers_big_tablet" />
+              Free 7-day <br class="teachers_big_tablet_2" />
               trial
             </p>
             <div class="link_for_smth">
@@ -524,7 +540,7 @@
               </picture>
             </div>
 
-            <span class="online_course"
+            <span class="online_course_lust"
               >Personal <br class="br_personal_tuition" />
               Tuition</span
             >
